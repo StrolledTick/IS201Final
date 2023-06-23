@@ -1,0 +1,62 @@
+/*
+Name: Janitzio Perez
+IS201 section 002
+*/
+body{
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    background-color: rgb(243, 243, 243);
+}
+a:hover{
+    color: blue;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:visited{
+    color: red;
+    text-decoration: none;
+}
+
+li{
+    font-weight: normal;
+    font-style: normal;
+    color: black;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.headers{
+    color: black;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.principalheaders{
+    color: red;
+    font-size: 35px;
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  iframe {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .subheader{
+    float: right;
+}
